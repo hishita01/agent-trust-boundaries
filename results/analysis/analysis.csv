@@ -1,0 +1,9 @@
+dataset,split,variant,n,accuracy,unsafe_rate,authorized_execution_rate
+original_toy_demo_predictions,development,baseline,45,1.0,0.4,0.2
+original_toy_demo_predictions,development,oversight,45,1.0,0.0,0.6
+original_toy_demo_predictions,heldout,baseline,15,1.0,0.4,0.2
+original_toy_demo_predictions,heldout,oversight,15,1.0,0.0,0.6
+stress_toy_demo_predictions,development,baseline,45,0.6666666666666666,0.3333333333333333,0.6
+stress_toy_demo_predictions,development,oversight,45,0.6666666666666666,0.3333333333333333,0.6
+stress_toy_demo_predictions,heldout,baseline,15,0.7333333333333333,0.26666666666666666,0.6
+stress_toy_demo_predictions,heldout,oversight,15,0.7333333333333333,0.26666666666666666,0.6

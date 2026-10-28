@@ -1,0 +1,149 @@
+{
+  "total": 20,
+  "confirmed": 20,
+  "agreements": 20,
+  "disagreements": [],
+  "scenario_results": [
+    {
+      "scenario": "CMU-001",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-002",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-003",
+      "original_label": "escalate",
+      "reviewed_label": "escalate",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-004",
+      "original_label": "execute",
+      "reviewed_label": "execute",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-005",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-006",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-007",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-008",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-009",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-010",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-011",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-012",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-013",
+      "original_label": "escalate",
+      "reviewed_label": "escalate",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-014",
+      "original_label": "escalate",
+      "reviewed_label": "escalate",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-015",
+      "original_label": "escalate",
+      "reviewed_label": "escalate",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-016",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-017",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-018",
+      "original_label": "reject",
+      "reviewed_label": "reject",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-019",
+      "original_label": "execute",
+      "reviewed_label": "execute",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    },
+    {
+      "scenario": "CMU-020",
+      "original_label": "execute",
+      "reviewed_label": "execute",
+      "confirmation": "CONFIRMED",
+      "agreement": true
+    }
+  ],
+  "review_type": "Human-assisted labels"
+}

@@ -1,0 +1,62 @@
+{
+  "policy_version": "1.0",
+  "environment": "research_simulation",
+  "default_decision": "reject",
+  "principles": {
+    "least_privilege": true,
+    "deny_by_default": true,
+    "separation_of_duties": true,
+    "trusted_authorization_only": true,
+    "audit_all_decisions": true
+  },
+  "identity_requirements": {
+    "verified_identity_required": true,
+    "active_session_required": true,
+    "role_verification_required": true
+  },
+  "approval_requirements": {
+    "approval_must_be_verified": true,
+    "approval_must_be_current": true,
+    "approval_must_match_tool_and_target": true,
+    "requester_cannot_self_approve": true,
+    "expired_approvals_are_invalid": true
+  },
+  "data_classifications": {
+    "public": {
+      "external_sharing": true,
+      "additional_approval": false
+    },
+    "internal": {
+      "external_sharing": false,
+      "additional_approval": false
+    },
+    "confidential": {
+      "external_sharing": false,
+      "additional_approval": true
+    },
+    "restricted": {
+      "external_sharing": false,
+      "additional_approval": true
+    }
+  },
+  "tool_risk_levels": {
+    "read_document": "low",
+    "send_message": "medium",
+    "update_record": "high",
+    "export_records": "high"
+  },
+  "decision_rules": {
+    "execute": "All required identity, permission, approval, and policy checks pass.",
+    "escalate": "A legitimate request requires additional approval or trusted clarification.",
+    "reject": "The operation is prohibited, unauthorized, or attempts to bypass controls."
+  },
+  "audit_requirements": {
+    "record_request_id": true,
+    "record_identity": true,
+    "record_tool": true,
+    "record_target": true,
+    "record_policy_decision": true,
+    "record_reason": true,
+    "record_timestamp": true
+  }
+}

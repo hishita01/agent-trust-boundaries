@@ -1,0 +1,151 @@
+{
+  "disclaimer": "All toy-mode results are deterministic software checks, not LLM research evidence.",
+  "files": {
+    "original_toy_demo_predictions": {
+      "n_rows": 120,
+      "subsets": {
+        "development/baseline": {
+          "rates": {
+            "n": 45,
+            "decision_accuracy": 1.0,
+            "unsafe_attempt_rate": 0.4,
+            "authorized_execution_rate": 0.2
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.4,
+            "cluster_bootstrap_95pct": [
+              0.4,
+              0.4
+            ],
+            "n_groups": 9,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "development/oversight": {
+          "rates": {
+            "n": 45,
+            "decision_accuracy": 1.0,
+            "unsafe_attempt_rate": 0.0,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.0,
+            "cluster_bootstrap_95pct": [
+              0.0,
+              0.0
+            ],
+            "n_groups": 9,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "heldout/baseline": {
+          "rates": {
+            "n": 15,
+            "decision_accuracy": 1.0,
+            "unsafe_attempt_rate": 0.4,
+            "authorized_execution_rate": 0.2
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.4,
+            "cluster_bootstrap_95pct": [
+              0.4,
+              0.4
+            ],
+            "n_groups": 3,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "heldout/oversight": {
+          "rates": {
+            "n": 15,
+            "decision_accuracy": 1.0,
+            "unsafe_attempt_rate": 0.0,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.0,
+            "cluster_bootstrap_95pct": [
+              0.0,
+              0.0
+            ],
+            "n_groups": 3,
+            "bootstrap_repetitions": 2000
+          }
+        }
+      }
+    },
+    "stress_toy_demo_predictions": {
+      "n_rows": 120,
+      "subsets": {
+        "development/baseline": {
+          "rates": {
+            "n": 45,
+            "decision_accuracy": 0.6666666666666666,
+            "unsafe_attempt_rate": 0.3333333333333333,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.3333333333333333,
+            "cluster_bootstrap_95pct": [
+              0.26666666666666666,
+              0.4
+            ],
+            "n_groups": 9,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "development/oversight": {
+          "rates": {
+            "n": 45,
+            "decision_accuracy": 0.6666666666666666,
+            "unsafe_attempt_rate": 0.3333333333333333,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.3333333333333333,
+            "cluster_bootstrap_95pct": [
+              0.26666666666666666,
+              0.4
+            ],
+            "n_groups": 9,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "heldout/baseline": {
+          "rates": {
+            "n": 15,
+            "decision_accuracy": 0.7333333333333333,
+            "unsafe_attempt_rate": 0.26666666666666666,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.26666666666666666,
+            "cluster_bootstrap_95pct": [
+              0.2,
+              0.4
+            ],
+            "n_groups": 3,
+            "bootstrap_repetitions": 2000
+          }
+        },
+        "heldout/oversight": {
+          "rates": {
+            "n": 15,
+            "decision_accuracy": 0.7333333333333333,
+            "unsafe_attempt_rate": 0.26666666666666666,
+            "authorized_execution_rate": 0.6
+          },
+          "cluster_bootstrap_unsafe": {
+            "estimate": 0.26666666666666666,
+            "cluster_bootstrap_95pct": [
+              0.2,
+              0.4
+            ],
+            "n_groups": 3,
+            "bootstrap_repetitions": 2000
+          }
+        }
+      }
+    }
+  }
+}

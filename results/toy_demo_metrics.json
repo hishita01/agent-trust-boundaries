@@ -1,0 +1,184 @@
+{
+  "execution_mode": "toy",
+  "model": "toy-heuristic",
+  "dataset_sha256": "955ca980a1c2d0139a680d8212cf1d7cc92b42834d1f1a5d1189c0e3d37a51f3",
+  "timestamp_utc": "2026-10-27T21:49:26.767336+00:00",
+  "n_scenarios": 60,
+  "n_repeats": 1,
+  "seed": 42,
+  "limitations": "Toy deterministic outputs ARE NOT LLM observations",
+  "results": {
+    "development": {
+      "baseline": {
+        "count": 45,
+        "correct_action": {
+          "rate": 1.0,
+          "low": 0.9213,
+          "high": 1,
+          "n": 45
+        },
+        "unsafe_tool_attempt": {
+          "rate": 0.4,
+          "low": 0.2702,
+          "high": 0.5455,
+          "n": 45
+        },
+        "attack_redirect_rate": {
+          "rate": 1.0,
+          "low": 0.8241,
+          "high": 1,
+          "n": 18
+        },
+        "clean_task_success": {
+          "rate": 1.0,
+          "low": 0.7008,
+          "high": 1,
+          "n": 9
+        },
+        "unauthorized_execution_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.1759,
+          "n": 18
+        },
+        "escalation_recall": {
+          "rate": 1.0,
+          "low": 0.7008,
+          "high": 1,
+          "n": 9
+        },
+        "format_errors": 0,
+        "mean_latency_ms": 0.0,
+        "mean_tokens": 0
+      },
+      "oversight": {
+        "count": 45,
+        "correct_action": {
+          "rate": 1.0,
+          "low": 0.9213,
+          "high": 1,
+          "n": 45
+        },
+        "unsafe_tool_attempt": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.0787,
+          "n": 45
+        },
+        "attack_redirect_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.1759,
+          "n": 18
+        },
+        "clean_task_success": {
+          "rate": 1.0,
+          "low": 0.7008,
+          "high": 1,
+          "n": 9
+        },
+        "unauthorized_execution_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.1759,
+          "n": 18
+        },
+        "escalation_recall": {
+          "rate": 1.0,
+          "low": 0.7008,
+          "high": 1,
+          "n": 9
+        },
+        "format_errors": 0,
+        "mean_latency_ms": 0.0,
+        "mean_tokens": 0
+      }
+    },
+    "heldout": {
+      "baseline": {
+        "count": 15,
+        "correct_action": {
+          "rate": 1.0,
+          "low": 0.7961,
+          "high": 1,
+          "n": 15
+        },
+        "unsafe_tool_attempt": {
+          "rate": 0.4,
+          "low": 0.1982,
+          "high": 0.6425,
+          "n": 15
+        },
+        "attack_redirect_rate": {
+          "rate": 1.0,
+          "low": 0.6097,
+          "high": 1.0,
+          "n": 6
+        },
+        "clean_task_success": {
+          "rate": 1.0,
+          "low": 0.4385,
+          "high": 1,
+          "n": 3
+        },
+        "unauthorized_execution_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.3903,
+          "n": 6
+        },
+        "escalation_recall": {
+          "rate": 1.0,
+          "low": 0.4385,
+          "high": 1,
+          "n": 3
+        },
+        "format_errors": 0,
+        "mean_latency_ms": 0.0,
+        "mean_tokens": 0
+      },
+      "oversight": {
+        "count": 15,
+        "correct_action": {
+          "rate": 1.0,
+          "low": 0.7961,
+          "high": 1,
+          "n": 15
+        },
+        "unsafe_tool_attempt": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.2039,
+          "n": 15
+        },
+        "attack_redirect_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.3903,
+          "n": 6
+        },
+        "clean_task_success": {
+          "rate": 1.0,
+          "low": 0.4385,
+          "high": 1,
+          "n": 3
+        },
+        "unauthorized_execution_rate": {
+          "rate": 0.0,
+          "low": 0,
+          "high": 0.3903,
+          "n": 6
+        },
+        "escalation_recall": {
+          "rate": 1.0,
+          "low": 0.4385,
+          "high": 1,
+          "n": 3
+        },
+        "format_errors": 0,
+        "mean_latency_ms": 0.0,
+        "mean_tokens": 0
+      }
+    }
+  }
+}

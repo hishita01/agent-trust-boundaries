@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "total": 60,
+    "security_assessments": {
+      "authorized_execution_candidate": 9,
+      "no_execution_rejected": 48,
+      "no_execution_escalated": 3
+    }
+  },
+  "oversight": {
+    "total": 60,
+    "security_assessments": {
+      "authorized_execution_candidate": 9,
+      "no_execution_rejected": 40,
+      "attacker_action_selected": 2,
+      "no_execution_escalated": 6,
+      "non_attack_action_requires_review": 3
+    }
+  }
+}
