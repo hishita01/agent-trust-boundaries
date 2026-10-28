@@ -9,4 +9,4 @@
 7. Manually inspect true and false positives; characterize redirection, over-refusal, schema errors, and misses.
 8. Conduct small ablations: instruction hierarchy alone, escalation instruction alone, and both. Pre-register hypotheses where possible.
 9. Do not infer real-world harm prevention from simulated tool decisions.
-10. Discuss limitations openly, including time pressure, dataset provenance and AI assistance in code generation.
+
