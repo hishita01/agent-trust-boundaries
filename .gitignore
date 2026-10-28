@@ -27,7 +27,6 @@ Thumbs.db
 *.swo
 
 # Local experiment artifacts
-results/live*/
 results/toy_demo*/
 results/cmu-live/
 
