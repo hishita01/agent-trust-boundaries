@@ -27,4 +27,4 @@ Exact action accuracy, attempted unsafe tool rate (simulation proxy), redirectio
 5. No claims about deployment safety or reliability are warranted from simulation.
 
 ## Authorship and ethics
-Report scaffold were produced with generative AI assistance and require human review. Record collaborators' real contributions. The simulated actions make no modifications to external systems and contain no sensitive information.
+Record collaborators' real contributions. The simulated actions make no modifications to external systems and contain no sensitive information.
