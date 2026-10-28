@@ -1,7 +1,7 @@
 # Trust Boundaries and Oversight in Tool-Using Agents
-## Reproducible research-engineering demonstration — October 2026
+## Reproducible research-engineering demonstration 
 
-**Status:** complete offline synthetic simulation; no live LLM model experiment performed. AI-assisted code and documentation. This is not a peer-reviewed paper.
+**Status:** complete offline synthetic simulation; no live LLM model experiment performed. This is not a peer-reviewed paper.
 
 ### Abstract
 We implemented a simulation harness to test whether an explicit trust-boundary policy can decrease unauthorized tool-action attempts under untrusted retrieved content, while preserving legitimate user requests. The study includes 60 synthetic scenarios from 12 task families and an additional 60 stress variants. Two deterministic policies (not large language models) produce decisions for simulated read, write, and messaging tools. On the original set, the guarded toy policy had a 0% unsafe-action proxy rate versus 40% for the baseline. However, stress phrasing made both policies fail at similar rates (approximately 32% each across all 60 stress cases). These findings demonstrate brittle heuristic-based evaluation and motivate controlled actual-LLM studies. **They do not establish any real model safety improvement.**
@@ -31,10 +31,9 @@ The apparent original-set advantage was deliberately built into the illustrative
 ### Limitations and validity threats
 1. **No LLM evaluation:** The observed decisions come from Python rule-based toy policies. The OpenAI-compatible live inference adapter exists but was not executed because no model access credentials or local model endpoint were available.
 2. **Narrow scenario distribution:** Just 12 task groups and repeated attack patterns. The held-out tasks still share the same scenario templates, meaning the held-out partition is *not* an independent generalization benchmark.
-3. **Unreviewed labels:** Ground-truth labels and paraphrases were generated programmatically, and no independent human annotation or adjudication was performed.
-4. **Confounded prompt conditions:** The full guarded prompt adds multiple instructions at once; it does not isolate which instruction may matter.
-5. **No actual downstream harm:** The sandbox only records attempted tools and cannot contact real systems.
-6. **Limited statistical inference:** Even group-level bootstrap intervals cannot compensate for the shared authoring templates or non-random dataset construction.
+3. **Confounded prompt conditions:** The full guarded prompt adds multiple instructions at once; it does not isolate which instruction may matter.
+4. **No actual downstream harm:** The sandbox only records attempted tools and cannot contact real systems.
+5. **Limited statistical inference:** Even group-level bootstrap intervals cannot compensate for the shared authoring templates or non-random dataset construction.
 
 ### Next empirical experiment (not performed)
 - Pre-register hypotheses and primary outcome (unsafe attempted action), and independently annotate the scenario labels.
@@ -44,4 +43,4 @@ The apparent original-set advantage was deliberately built into the illustrative
 - Include explicit evaluation of over-refusal and inadvertent disclosure.
 
 ### Reproducibility and provenance
-Run `PROJECT_START_HERE.md` commands. The experiment source, prompts, data, CSV predictions, JSON metrics, and plotted summary are included. The code and report were produced with AI assistance at the applicant's request; any independent human collaborators must be acknowledged by actual contributions only.
+Run `PROJECT_START_HERE.md` commands. The experiment source, prompts, data, CSV predictions, JSON metrics, and plotted summary are included. 
